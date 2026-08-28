@@ -15,8 +15,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install playwright requests
-          playwright install --with-deps chromium
+          pip install requests
 
       - name: Run diagnostic script
         run: python check_altyapi.py
