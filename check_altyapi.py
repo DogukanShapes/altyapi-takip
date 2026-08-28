@@ -3,6 +3,9 @@ import requests
 sites = {
     "Google (kontrol)": "https://www.google.com",
     "Millenicom": "https://www.milleni.com.tr",
+    "TürkNet": "https://www.turk.net",
+    "DuruNET": "https://durunet.com.tr",
+    "Türk Telekom": "https://www.turktelekom.com.tr",
 }
 
 for name, url in sites.items():
